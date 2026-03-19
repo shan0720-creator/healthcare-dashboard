@@ -129,7 +129,7 @@ export default function Analytics() {
               outerRadius={100}
               label
             >
-              {pieData.map((entry, index) => (
+              {pieData.map((_, index) => (
                 <Cell key={index} fill={COLORS[index]} />
               ))}
             </Pie>
